@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    ? ---------------------------------
+    ? BASE WEB
+    ? ---------------------------------
+*/
+.container__background--design{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    background-image: url(/images/1x/fondo--degradado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+/*
+    ? ---------------------------------
+    ? BASE FORMULARIO
+    ? ---------------------------------
+*/
+.formulario__background--design{
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+/*
+    ? ---------------------------------
+    ? DISEÑO LADO 1
+    ? ---------------------------------
+*/
+
+.side1__background--design{
+    height: 100%;
+    background-color: rgba(0, 8, 20, 0.70);
+    background-image: url(/images/1x/laptop--formulario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+}
+
+/*
+    ? ---------------------------------
+    ? FILA 1 DESIGN
+    ? ---------------------------------
+*/
+
+.side1__item--primary{
+    height: 25%;
+    background-color: transparent(135, 94, 45);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+
+}
+
+.side1__logo--main{
+    height: 100%;
+    background-image: url(/images/1x/Recurso\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.side1__h1--design{
+    font-size: 2.8rem;
+    text-align: justify;
+    width: 100%;
+}
+
+.side1__name--main{
+    display: flex;
+    height: 100%;
+    background-color: transparent;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    flex-direction: column;
+    text-align: justify;
+}
+
+/*
+    ? ---------------------------------
+    ? FILA 2 DESIGN
+    ? ---------------------------------
+    ! ITEM 2
+*/
+
+.side1__item--secondary{
+    height: 25%;
+    background-color: transparent;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.side1__item--text1{
+    font-size: 2.8rem;
+    color: white;
+    width: 100%;
+    margin-bottom: -15px;
+}
+/*
+    ? ---------------------------------
+    ? FILA 3 DESIGN
+    ? ---------------------------------
+    ! ITEM 3
+*/
+.side1__item--third{
+    height: 40%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side1__item--parrafo{
+    width: 100%;
+    text-align: justify;
+    color: white;
+    font-size: 1.5rem;
+}
+/*
+    ? ---------------------------------
+    ? FILA 4 DESIGN
+    ? ---------------------------------
+    ! ITEM 4
+*/
+.side1__item--fourth{
+    height: 10%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    
+}
+/*
+    ? ---------------------------------
+    ? DISEÑO LADO 2
+    ? ---------------------------------
+    TODO: LADO 2
+*/
+
+.side2__background2--design{
+    height: 100%;
+    background-color: transparent;
+    border-radius: 0px 20px 20px 0;
+    -webkit-border-radius: 0px 20px 20px 0;
+    -moz-border-radius: 0px 20px 20px 0;
+    -ms-border-radius: 0px 20px 20px 0;
+    -o-border-radius: 0px 20px 20px 0;
+    display: flex;  
+    align-items: start;
+    flex-direction: column;
+}
+
+/*
+    ? ---------------------------------
+    ? DISEÑO LADO 2
+    ? ---------------------------------
+*/
+
+.side2__item--primary{
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+    ? ---------------------------------
+    ? FILA 1 DESIGN 2
+    ? ---------------------------------
+    ! ITEM 4
+*/
+
+.side2__title--design{
+    font-size: 3rem;
+
+}
+
+/*
+    ? ---------------------------------
+    ? FILA 2 DESIGN 2
+    ? ---------------------------------
+    ! ITEM 4
+*/
+
+.side2__item--secondary{
+    height: 64%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.side2__formulario--design{
+    display: flex;
+        flex-direction: column;
+
+}
+.side2__formulario--design{
+    width: 100%;
+}
+
+.side2__button--formulario{
+    width: 40%;
+    
+}
+.side2__div--formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+    ? ---------------------------------
+    ? FILA 3 DESIGN 2
+    ? ---------------------------------
+    ! ITEM 4
+*/
+.side2__item--third{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
